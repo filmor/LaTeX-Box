@@ -22,6 +22,7 @@ if !exists('b:LatexBox_loaded')
 	execute 'source ' . s:FNameEscape(prefix . 'motion.vim')
 	execute 'source ' . s:FNameEscape(prefix . 'latexmk.vim')
 	execute 'source ' . s:FNameEscape(prefix . 'folding.vim')
+	execute 'source ' . s:FNameEscape(prefix . 'findmain.vim')
 
 	let b:LatexBox_loaded = 1
 
